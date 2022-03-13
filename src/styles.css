@@ -1,0 +1,27 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+}
+
+.home-screen {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+@media only screen and (max-width: 800px) {
+  .signin-form {
+    width: 100%;
+  }
+  .left-screen,
+  .right-screen {
+    display: none;
+  }
+  .center-screen {
+    flex: 1;
+  }
+  .add-tweet-form {
+    flex-wrap: wrap;
+  }
+}

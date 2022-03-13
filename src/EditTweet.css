@@ -1,0 +1,11 @@
+.edit-screen {
+  text-align: center;
+  padding: 20px;
+}
+.edit-tweet-input {
+  width: 60%;
+  height: 100px;
+}
+.add-tweet-btn {
+  margin-top: 5%;
+}

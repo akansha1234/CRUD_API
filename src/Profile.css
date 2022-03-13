@@ -1,0 +1,14 @@
+.profile {
+  text-align: center;
+  width: 600px;
+  margin: 54px auto;
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  box-shadow: 8px 8px 12px 12px whitesmoke;
+}
+.profile_elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}

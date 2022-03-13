@@ -1,0 +1,43 @@
+.signin-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15%;
+  height: 100vh;
+  width: 600px;
+  margin: auto;
+  box-shadow: 8px 8px 12px 12px whitesmoke;
+}
+.fields {
+  /* text-align: center;
+  width: 100%; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.label {
+  font-size: 23px;
+}
+input {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  margin-top: 20px;
+}
+
+.signin-btn {
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  padding: 10px;
+  border: none;
+  width: 50%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.fa-twitter {
+  font-size: 48px;
+  color: #00acee;
+}

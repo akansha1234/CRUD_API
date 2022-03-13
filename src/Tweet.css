@@ -1,0 +1,22 @@
+.tweet-container {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.update-tweet {
+  display: flex;
+
+  align-items: center;
+  width: 10%;
+  cursor: pointer;
+  font-size: 23px;
+  gap: 20%;
+}
+.tweet-box {
+  text-align: left;
+}
+.fa-pencil {
+  color: black;
+}
